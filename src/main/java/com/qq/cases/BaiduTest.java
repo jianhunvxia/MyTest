@@ -32,6 +32,7 @@ public class BaiduTest {
     public void beforeTest() throws IOException {
         System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, EnvUtil.driverPath());
         driver = new ChromeDriver();
+        System.out.println("我是主分支");
 //        driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);//全局设置显示等待10s,超时则异常
     }
