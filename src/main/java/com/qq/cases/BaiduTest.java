@@ -33,6 +33,7 @@ public class BaiduTest {
         System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, EnvUtil.driverPath());
         driver = new ChromeDriver();
         System.out.println("我是主分支");
+        System.out.println("主分支--新增");
 //        driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);//全局设置显示等待10s,超时则异常
     }
