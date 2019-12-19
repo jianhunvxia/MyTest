@@ -34,6 +34,7 @@ public class BaiduTest {
         driver = new ChromeDriver();
 //        driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);//全局设置显示等待10s,超时则异常
+        System.out.println("dev中新加内容");
     }
 
     /**
